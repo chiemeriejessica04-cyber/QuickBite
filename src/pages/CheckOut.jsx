@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Checkout.css';
+import './CheckOut.css';
 
 function Checkout({ cart, setCart }) {
   const [orderPlaced, setOrderPlaced] = useState(false);

@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: #FFF9F3;
+  color: #382B28;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  background: #FFF9F3;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
